@@ -1,13 +1,13 @@
-Fitter Status : Successful - Mon Apr 30 07:07:44 2018
+Fitter Status : Successful - Fri May 11 08:43:34 2018
 Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 Revision Name : de10-nano-bus-spider_0
 Top-level Entity Name : de10_nano_bus_spider
 Family : Cyclone V
 Device : 5CSEBA6U23I7
 Timing Models : Final
-Logic utilization (in ALMs) : 2,257 / 41,910 ( 5 % )
-Total registers : 3009
-Total pins : 163 / 314 ( 52 % )
+Logic utilization (in ALMs) : 2,261 / 41,910 ( 5 % )
+Total registers : 3001
+Total pins : 161 / 314 ( 51 % )
 Total virtual pins : 0
 Total block memory bits : 272,640 / 5,662,720 ( 5 % )
 Total RAM Blocks : 37 / 553 ( 7 % )

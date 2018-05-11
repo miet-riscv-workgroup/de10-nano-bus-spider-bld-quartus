@@ -1,7 +1,6 @@
 module de10_nano_bus_spider(
 	input FPGA_CLK1_50,
 
-	inout HPS_CONV_USB_N,
 	output [14:0] HPS_DDR3_ADDR,
 	output [2:0] HPS_DDR3_BA,
 	output HPS_DDR3_CAS_N,
@@ -18,7 +17,6 @@ module de10_nano_bus_spider(
 	output HPS_DDR3_RESET_N,
 	input HPS_DDR3_RZQ,
 	output HPS_DDR3_WE_N,
-	inout HPS_GSENSOR_INT,
 	input HPS_UART_RX,
 	output HPS_UART_TX,
 
@@ -93,8 +91,7 @@ wire [31:0] hps_0_f2h_irq0_irq;
 soc_system u0 (
 	.clk_clk (wb_clk),
 
-	.hps_0_h2f_reset_reset_n (hps_fpga_reset_n),
-	.reset_reset_n (hps_fpga_reset_n),
+	.reset_reset_n (1),
 
 	.memory_mem_a (HPS_DDR3_ADDR),
 	.memory_mem_ba (HPS_DDR3_BA),
@@ -131,18 +128,6 @@ soc_system u0 (
 
 assign hps_0_f2h_irq0_irq[0] = altr_uart0_irq;
 assign hps_0_f2h_irq0_irq[1] = altr_uart1_irq;
-
-// Debounce logic to clean out glitches within 1ms
-debounce debounce_inst (
-	.clk (FPGA_CLK1_50),
-	.reset_n (hps_fpga_reset_n),
-	.data_in (KEY),
-	.data_out (fpga_debounced_buttons)
-);
-defparam debounce_inst.WIDTH = 2;
-defparam debounce_inst.POLARITY = "LOW";
-defparam debounce_inst.TIMEOUT = 50000;      // at 50Mhz this is a debounce time of 1ms
-defparam debounce_inst.TIMEOUT_WIDTH = 16;   // ceil(log2(TIMEOUT))
 
 wire picorv32_wb_soc_reset_from_hps;
 

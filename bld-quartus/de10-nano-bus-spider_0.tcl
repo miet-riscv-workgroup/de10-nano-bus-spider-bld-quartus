@@ -27,7 +27,6 @@ set_global_assignment -name VERILOG_FILE ../src/wb_intercon_1.0/rtl/verilog/wb_u
 set_global_assignment -name VERILOG_FILE ../src/wb_intercon_1.0/rtl/verilog/wb_mux.v
 set_global_assignment -name VERILOG_FILE ../src/wb_ram_1.0/rtl/verilog/wb_ram.v
 set_global_assignment -name VERILOG_FILE ../src/de10-nano-bus-spider_0/rtl/verilog/de10-nano-bus-spider.v
-set_global_assignment -name VERILOG_FILE ../src/de10-nano-bus-spider_0/rtl/verilog/altera_ip/debounce/debounce.v
 set_global_assignment -name VERILOG_FILE ../src/de10-nano-bus-spider_0/rtl/verilog/picorv32-wb-soc.v
 set_global_assignment -name VERILOG_FILE ../src/de10-nano-bus-spider_0/rtl/verilog/wb_intercon/wb_intercon.v
 set_global_assignment -name QIP_FILE qsys/soc_system/soc_system.qip

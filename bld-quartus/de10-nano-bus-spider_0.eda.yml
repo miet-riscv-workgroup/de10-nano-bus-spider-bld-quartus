@@ -1,0 +1,50 @@
+files:
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/altera_clkgen_0/wrapped_altpll.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/altera_clkgen_0/altpll_wb_clkgen.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/altera_clkgen_0/wrapped_altera_pll.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/altera_clkgen_0/altera_pll_wb_clkgen.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/gpio_0/gpio.v}
+- {file_type: verilogSource, is_include_file: true, logical_name: '', name: ../src/or1k_bootloaders_0.9/boot_loop.vh}
+- {file_type: verilogSource, is_include_file: true, logical_name: '', name: ../src/or1k_bootloaders_0.9/clear_r3_and_jump_to_0x100.vh}
+- {file_type: verilogSource, is_include_file: true, logical_name: '', name: ../src/or1k_bootloaders_0.9/led_blink.vh}
+- {file_type: verilogSource, is_include_file: true, logical_name: '', name: ../src/or1k_bootloaders_0.9/spi_uimage_loader.vh}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/or1k_bootloaders_0.9/wb_bootrom.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/picorv32_0/axi4_memory.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/picorv32_0/picorv32.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/picorv32_0/picorv32_top.v}
+- {file_type: verilogSource, is_include_file: true, logical_name: '', name: ../src/riscv-nmon_0/nmon_picorv32-wb-soc_10MHz_9600.txt}
+- {file_type: verilogSource, is_include_file: true, logical_name: '', name: ../src/riscv-nmon_0/nmon_picorv32-wb-soc_24MHz_115200.txt}
+- {file_type: verilogSource, is_include_file: true, logical_name: '', name: ../src/uart16550_1.5.4/rtl/verilog/uart_defines.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/uart16550_1.5.4/rtl/verilog/raminfr.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/uart16550_1.5.4/rtl/verilog/uart_receiver.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/uart16550_1.5.4/rtl/verilog/uart_regs.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/uart16550_1.5.4/rtl/verilog/uart_rfifo.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/uart16550_1.5.4/rtl/verilog/uart_sync_flops.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/uart16550_1.5.4/rtl/verilog/uart_tfifo.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/uart16550_1.5.4/rtl/verilog/uart_top.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/uart16550_1.5.4/rtl/verilog/uart_transmitter.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/uart16550_1.5.4/rtl/verilog/uart_wb.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/verilog-arbiter_0-r1/src/arbiter.v}
+- {file_type: verilogSource, is_include_file: true, logical_name: '', name: ../src/verilog_utils_0/verilog_utils.vh}
+- {file_type: verilogSource, is_include_file: true, logical_name: '', name: ../src/wb_common_0/wb_common_params.v}
+- {file_type: verilogSource, is_include_file: true, logical_name: '', name: ../src/wb_common_0/wb_common.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/wb_intercon_1.0/rtl/verilog/wb_arbiter.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/wb_intercon_1.0/rtl/verilog/wb_data_resize.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/wb_intercon_1.0/rtl/verilog/wb_upsizer.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/wb_intercon_1.0/rtl/verilog/wb_mux.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/wb_ram_1.0/rtl/verilog/wb_ram.v}
+- {file_type: verilogSource, is_include_file: true, logical_name: '', name: ../src/de10-nano-bus-spider_0/rtl/verilog/wb_intercon/wb_intercon.vh}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/de10-nano-bus-spider_0/rtl/verilog/de10-nano-bus-spider.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/de10-nano-bus-spider_0/rtl/verilog/picorv32-wb-soc.v}
+- {file_type: verilogSource, is_include_file: false, logical_name: '', name: ../src/de10-nano-bus-spider_0/rtl/verilog/wb_intercon/wb_intercon.v}
+- {file_type: QSYS, is_include_file: false, logical_name: '', name: ../src/de10-nano-bus-spider_0/data/soc_system.qsys}
+- {file_type: SDC, is_include_file: false, logical_name: '', name: ../src/de10-nano-bus-spider_0/data/de10-nano-bus-spider.sdc}
+- {file_type: tclSource, is_include_file: false, logical_name: '', name: ../src/de10-nano-bus-spider_0/data/de10-nano-bus-spider.qsf}
+hooks: {}
+name: de10-nano-bus-spider_0
+parameters: []
+tool_options:
+  quartus: {device: 5CSEBA6U23I7, family: Cyclone V, quartus_options: --64bit, top_module: de10_nano_bus_spider}
+toplevel: de10_nano_bus_spider
+version: 0.1.2
+vpi: []
