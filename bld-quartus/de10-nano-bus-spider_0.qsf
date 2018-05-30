@@ -18,7 +18,7 @@
 #
 # Quartus Prime
 # Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-# Date created = 08:37:07  May 11, 2018
+# Date created = 11:02:46  May 30, 2018
 #
 # -------------------------------------------------------------------------- #
 #
@@ -40,7 +40,7 @@ set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSEBA6U23I7
 set_global_assignment -name TOP_LEVEL_ENTITY de10_nano_bus_spider
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 17.1.0
-set_global_assignment -name PROJECT_CREATION_TIME_DATE "08:37:07  MAY 11, 2018"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:02:46  MAY 30, 2018"
 set_global_assignment -name LAST_QUARTUS_VERSION "17.1.0 Lite Edition"
 set_global_assignment -name VERILOG_FILE ../src/altera_clkgen_0/wrapped_altpll.v
 set_global_assignment -name VERILOG_FILE ../src/altera_clkgen_0/altpll_wb_clkgen.v
@@ -66,9 +66,9 @@ set_global_assignment -name VERILOG_FILE ../src/wb_intercon_1.0/rtl/verilog/wb_d
 set_global_assignment -name VERILOG_FILE ../src/wb_intercon_1.0/rtl/verilog/wb_upsizer.v
 set_global_assignment -name VERILOG_FILE ../src/wb_intercon_1.0/rtl/verilog/wb_mux.v
 set_global_assignment -name VERILOG_FILE ../src/wb_ram_1.0/rtl/verilog/wb_ram.v
+set_global_assignment -name VERILOG_FILE "../src/bus-spider-soc_0/rtl/verilog/picorv32-wb-soc.v"
+set_global_assignment -name VERILOG_FILE "../src/bus-spider-soc_0/rtl/verilog/wb_intercon/wb_intercon.v"
 set_global_assignment -name VERILOG_FILE "../src/de10-nano-bus-spider_0/rtl/verilog/de10-nano-bus-spider.v"
-set_global_assignment -name VERILOG_FILE "../src/de10-nano-bus-spider_0/rtl/verilog/picorv32-wb-soc.v"
-set_global_assignment -name VERILOG_FILE "../src/de10-nano-bus-spider_0/rtl/verilog/wb_intercon/wb_intercon.v"
 set_global_assignment -name QIP_FILE qsys/soc_system/soc_system.qip
 set_global_assignment -name SDC_FILE "../src/de10-nano-bus-spider_0/data/de10-nano-bus-spider.sdc"
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to FPGA_CLK1_50
@@ -585,4 +585,4 @@ set_global_assignment -name SEARCH_PATH "../src/riscv-nmon_0"
 set_global_assignment -name SEARCH_PATH ../src/uart16550_1.5.4/rtl/verilog
 set_global_assignment -name SEARCH_PATH ../src/verilog_utils_0
 set_global_assignment -name SEARCH_PATH ../src/wb_common_0
-set_global_assignment -name SEARCH_PATH "../src/de10-nano-bus-spider_0/rtl/verilog/wb_intercon"
+set_global_assignment -name SEARCH_PATH "../src/bus-spider-soc_0/rtl/verilog/wb_intercon"

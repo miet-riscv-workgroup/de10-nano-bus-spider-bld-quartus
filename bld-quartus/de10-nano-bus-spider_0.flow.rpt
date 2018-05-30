@@ -1,5 +1,5 @@
 Flow report for de10-nano-bus-spider_0
-Fri May 11 08:44:30 2018
+Wed May 30 11:12:42 2018
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -40,15 +40,15 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Fri May 11 08:43:52 2018       ;
+; Flow Status                     ; Successful - Wed May 30 11:11:45 2018       ;
 ; Quartus Prime Version           ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; de10-nano-bus-spider_0                      ;
 ; Top-level Entity Name           ; de10_nano_bus_spider                        ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEBA6U23I7                                ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 2,261 / 41,910 ( 5 % )                      ;
-; Total registers                 ; 3001                                        ;
+; Logic utilization (in ALMs)     ; 2,278 / 41,910 ( 5 % )                      ;
+; Total registers                 ; 2999                                        ;
 ; Total pins                      ; 161 / 314 ( 51 % )                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 272,640 / 5,662,720 ( 5 % )                 ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+------------------------+
 ; Option            ; Setting                ;
 +-------------------+------------------------+
-; Start date & time ; 05/11/2018 08:37:14    ;
+; Start date & time ; 05/30/2018 11:02:53    ;
 ; Main task         ; Compilation            ;
 ; Revision Name     ; de10-nano-bus-spider_0 ;
 +-------------------+------------------------+
@@ -78,20 +78,20 @@ refer to the applicable agreement for further details.
 +---------------------------------------+-------------------------------------------------------------------------------+------------------------+--------------------------------+------------+
 ; Assignment Name                       ; Value                                                                         ; Default Value          ; Entity Name                    ; Section Id ;
 +---------------------------------------+-------------------------------------------------------------------------------+------------------------+--------------------------------+------------+
-; COMPILER_SIGNATURE_ID                 ; 90520731923542.152601703402306                                                ; --                     ; --                             ; --         ;
+; COMPILER_SIGNATURE_ID                 ; 264840330472358.152766737304191                                               ; --                     ; --                             ; --         ;
 ; ECO_REGENERATE_REPORT                 ; On                                                                            ; Off                    ; --                             ; --         ;
-; HPS_ISW_FILE                          ; qsys/soc_system/synthesis/submodules/sequencer/alt_types.pre.h                ; --                     ; soc_system_hps_0_hps_io_border ; --         ;
-; HPS_ISW_FILE                          ; qsys/soc_system/synthesis/submodules/sequencer/sequencer.pre.c                ; --                     ; soc_system_hps_0_hps_io_border ; --         ;
-; HPS_ISW_FILE                          ; qsys/soc_system/synthesis/submodules/sequencer/sequencer_auto_ac_init.pre.c   ; --                     ; soc_system_hps_0_hps_io_border ; --         ;
-; HPS_ISW_FILE                          ; qsys/soc_system/synthesis/submodules/sequencer/emif.pre.xml                   ; --                     ; soc_system_hps_0_hps_io_border ; --         ;
 ; HPS_ISW_FILE                          ; qsys/soc_system/synthesis/submodules/sequencer/sdram_io.pre.h                 ; --                     ; soc_system_hps_0_hps_io_border ; --         ;
-; HPS_ISW_FILE                          ; qsys/soc_system/synthesis/submodules/sequencer/sequencer_auto_inst_init.pre.c ; --                     ; soc_system_hps_0_hps_io_border ; --         ;
+; HPS_ISW_FILE                          ; qsys/soc_system/synthesis/submodules/sequencer/alt_types.pre.h                ; --                     ; soc_system_hps_0_hps_io_border ; --         ;
+; HPS_ISW_FILE                          ; qsys/soc_system/synthesis/submodules/sequencer/system.pre.h                   ; --                     ; soc_system_hps_0_hps_io_border ; --         ;
+; HPS_ISW_FILE                          ; qsys/soc_system/synthesis/submodules/sequencer/sequencer.pre.c                ; --                     ; soc_system_hps_0_hps_io_border ; --         ;
+; HPS_ISW_FILE                          ; qsys/soc_system/synthesis/submodules/sequencer/sequencer.pre.h                ; --                     ; soc_system_hps_0_hps_io_border ; --         ;
+; HPS_ISW_FILE                          ; qsys/soc_system/synthesis/submodules/sequencer/tclrpt.pre.c                   ; --                     ; soc_system_hps_0_hps_io_border ; --         ;
 ; HPS_ISW_FILE                          ; qsys/soc_system/synthesis/submodules/sequencer/tclrpt.pre.h                   ; --                     ; soc_system_hps_0_hps_io_border ; --         ;
 ; HPS_ISW_FILE                          ; qsys/soc_system/synthesis/submodules/sequencer/sequencer_defines.pre.h        ; --                     ; soc_system_hps_0_hps_io_border ; --         ;
-; HPS_ISW_FILE                          ; qsys/soc_system/synthesis/submodules/sequencer/tclrpt.pre.c                   ; --                     ; soc_system_hps_0_hps_io_border ; --         ;
-; HPS_ISW_FILE                          ; qsys/soc_system/synthesis/submodules/sequencer/system.pre.h                   ; --                     ; soc_system_hps_0_hps_io_border ; --         ;
+; HPS_ISW_FILE                          ; qsys/soc_system/synthesis/submodules/sequencer/sequencer_auto_ac_init.pre.c   ; --                     ; soc_system_hps_0_hps_io_border ; --         ;
+; HPS_ISW_FILE                          ; qsys/soc_system/synthesis/submodules/sequencer/sequencer_auto_inst_init.pre.c ; --                     ; soc_system_hps_0_hps_io_border ; --         ;
 ; HPS_ISW_FILE                          ; qsys/soc_system/synthesis/submodules/sequencer/sequencer_auto.pre.h           ; --                     ; soc_system_hps_0_hps_io_border ; --         ;
-; HPS_ISW_FILE                          ; qsys/soc_system/synthesis/submodules/sequencer/sequencer.pre.h                ; --                     ; soc_system_hps_0_hps_io_border ; --         ;
+; HPS_ISW_FILE                          ; qsys/soc_system/synthesis/submodules/sequencer/emif.pre.xml                   ; --                     ; soc_system_hps_0_hps_io_border ; --         ;
 ; HPS_ISW_FILE                          ; qsys/soc_system/synthesis/submodules/hps.pre.xml                              ; --                     ; soc_system_hps_0_hps_io_border ; --         ;
 ; HPS_PARTITION                         ; On                                                                            ; --                     ; soc_system_hps_0_hps_io_border ; --         ;
 ; MAX_CORE_JUNCTION_TEMP                ; 100                                                                           ; --                     ; --                             ; --         ;
@@ -99,18 +99,18 @@ refer to the applicable agreement for further details.
 ; MISC_FILE                             ; qsys/soc_system/soc_system.cmp                                                ; --                     ; --                             ; --         ;
 ; MISC_FILE                             ; qsys/soc_system/synthesis/soc_system_hps_0_hps.svd                            ; --                     ; --                             ; --         ;
 ; MISC_FILE                             ; qsys/soc_system/../../../src/de10-nano-bus-spider_0/data/soc_system.qsys      ; --                     ; --                             ; --         ;
-; MISC_FILE                             ; qsys/soc_system/synthesis/submodules/sequencer/alt_types.pre.h                ; --                     ; --                             ; --         ;
-; MISC_FILE                             ; qsys/soc_system/synthesis/submodules/sequencer/sequencer.pre.c                ; --                     ; --                             ; --         ;
-; MISC_FILE                             ; qsys/soc_system/synthesis/submodules/sequencer/sequencer_auto_ac_init.pre.c   ; --                     ; --                             ; --         ;
-; MISC_FILE                             ; qsys/soc_system/synthesis/submodules/sequencer/emif.pre.xml                   ; --                     ; --                             ; --         ;
 ; MISC_FILE                             ; qsys/soc_system/synthesis/submodules/sequencer/sdram_io.pre.h                 ; --                     ; --                             ; --         ;
-; MISC_FILE                             ; qsys/soc_system/synthesis/submodules/sequencer/sequencer_auto_inst_init.pre.c ; --                     ; --                             ; --         ;
+; MISC_FILE                             ; qsys/soc_system/synthesis/submodules/sequencer/alt_types.pre.h                ; --                     ; --                             ; --         ;
+; MISC_FILE                             ; qsys/soc_system/synthesis/submodules/sequencer/system.pre.h                   ; --                     ; --                             ; --         ;
+; MISC_FILE                             ; qsys/soc_system/synthesis/submodules/sequencer/sequencer.pre.c                ; --                     ; --                             ; --         ;
+; MISC_FILE                             ; qsys/soc_system/synthesis/submodules/sequencer/sequencer.pre.h                ; --                     ; --                             ; --         ;
+; MISC_FILE                             ; qsys/soc_system/synthesis/submodules/sequencer/tclrpt.pre.c                   ; --                     ; --                             ; --         ;
 ; MISC_FILE                             ; qsys/soc_system/synthesis/submodules/sequencer/tclrpt.pre.h                   ; --                     ; --                             ; --         ;
 ; MISC_FILE                             ; qsys/soc_system/synthesis/submodules/sequencer/sequencer_defines.pre.h        ; --                     ; --                             ; --         ;
-; MISC_FILE                             ; qsys/soc_system/synthesis/submodules/sequencer/tclrpt.pre.c                   ; --                     ; --                             ; --         ;
-; MISC_FILE                             ; qsys/soc_system/synthesis/submodules/sequencer/system.pre.h                   ; --                     ; --                             ; --         ;
+; MISC_FILE                             ; qsys/soc_system/synthesis/submodules/sequencer/sequencer_auto_ac_init.pre.c   ; --                     ; --                             ; --         ;
+; MISC_FILE                             ; qsys/soc_system/synthesis/submodules/sequencer/sequencer_auto_inst_init.pre.c ; --                     ; --                             ; --         ;
 ; MISC_FILE                             ; qsys/soc_system/synthesis/submodules/sequencer/sequencer_auto.pre.h           ; --                     ; --                             ; --         ;
-; MISC_FILE                             ; qsys/soc_system/synthesis/submodules/sequencer/sequencer.pre.h                ; --                     ; --                             ; --         ;
+; MISC_FILE                             ; qsys/soc_system/synthesis/submodules/sequencer/emif.pre.xml                   ; --                     ; --                             ; --         ;
 ; MISC_FILE                             ; qsys/soc_system/synthesis/submodules/hps.pre.xml                              ; --                     ; --                             ; --         ;
 ; PARTITION_COLOR                       ; -- (Not supported for targeted family)                                        ; --                     ; de10_nano_bus_spider           ; Top        ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL   ; -- (Not supported for targeted family)                                        ; --                     ; de10_nano_bus_spider           ; Top        ;
@@ -122,8 +122,8 @@ refer to the applicable agreement for further details.
 ; SEARCH_PATH                           ; ../src/uart16550_1.5.4/rtl/verilog                                            ; --                     ; --                             ; --         ;
 ; SEARCH_PATH                           ; ../src/verilog_utils_0                                                        ; --                     ; --                             ; --         ;
 ; SEARCH_PATH                           ; ../src/wb_common_0                                                            ; --                     ; --                             ; --         ;
-; SEARCH_PATH                           ; ../src/de10-nano-bus-spider_0/rtl/verilog/wb_intercon                         ; --                     ; --                             ; --         ;
-; SLD_INFO                              ; QSYS_NAME soc_system HAS_SOPCINFO 1 GENERATION_ID 1526016966                  ; --                     ; soc_system                     ; --         ;
+; SEARCH_PATH                           ; ../src/bus-spider-soc_0/rtl/verilog/wb_intercon                               ; --                     ; --                             ; --         ;
+; SLD_INFO                              ; QSYS_NAME soc_system HAS_SOPCINFO 1 GENERATION_ID 1527667297                  ; --                     ; soc_system                     ; --         ;
 ; SOPCINFO_FILE                         ; qsys/soc_system/soc_system.sopcinfo                                           ; --                     ; --                             ; --         ;
 ; SYNTHESIS_ONLY_QIP                    ; On                                                                            ; --                     ; --                             ; --         ;
 ; TOP_LEVEL_ENTITY                      ; de10_nano_bus_spider                                                          ; de10-nano-bus-spider_0 ; --                             ; --         ;
@@ -136,24 +136,24 @@ refer to the applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:01:16     ; 1.0                     ; 2559 MB             ; 00:01:18                           ;
-; Fitter                    ; 00:02:07     ; 1.1                     ; 3022 MB             ; 00:02:56                           ;
-; Assembler                 ; 00:00:15     ; 1.0                     ; 1032 MB             ; 00:00:14                           ;
-; TimeQuest Timing Analyzer ; 00:00:38     ; 1.2                     ; 2076 MB             ; 00:00:44                           ;
-; Total                     ; 00:04:16     ; --                      ; --                  ; 00:05:12                           ;
+; Analysis & Synthesis      ; 00:01:58     ; 1.0                     ; 2555 MB             ; 00:02:20                           ;
+; Fitter                    ; 00:02:55     ; 1.1                     ; 3021 MB             ; 00:04:59                           ;
+; Assembler                 ; 00:00:20     ; 1.0                     ; 1037 MB             ; 00:00:20                           ;
+; TimeQuest Timing Analyzer ; 00:00:56     ; 1.2                     ; 2082 MB             ; 00:01:05                           ;
+; Total                     ; 00:06:09     ; --                      ; --                  ; 00:08:44                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+-----------------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                               ;
-+---------------------------+------------------+------------------+------------+----------------+
-; Module Name               ; Machine Hostname ; OS Name          ; OS Version ; Processor type ;
-+---------------------------+------------------+------------------+------------+----------------+
-; Analysis & Synthesis      ; qsys             ; Debian GNU/Linux ; 9          ; x86_64         ;
-; Fitter                    ; qsys             ; Debian GNU/Linux ; 9          ; x86_64         ;
-; Assembler                 ; qsys             ; Debian GNU/Linux ; 9          ; x86_64         ;
-; TimeQuest Timing Analyzer ; qsys             ; Debian GNU/Linux ; 9          ; x86_64         ;
-+---------------------------+------------------+------------------+------------+----------------+
++-----------------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                                     ;
++---------------------------+------------------+------------------+------------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name          ; OS Version       ; Processor type ;
++---------------------------+------------------+------------------+------------------+----------------+
+; Analysis & Synthesis      ; cinco            ; Debian GNU/Linux ; Debian GNU/Linux ; x86_64         ;
+; Fitter                    ; cinco            ; Debian GNU/Linux ; Debian GNU/Linux ; x86_64         ;
+; Assembler                 ; cinco            ; Debian GNU/Linux ; Debian GNU/Linux ; x86_64         ;
+; TimeQuest Timing Analyzer ; cinco            ; Debian GNU/Linux ; Debian GNU/Linux ; x86_64         ;
++---------------------------+------------------+------------------+------------------+----------------+
 
 
 ------------

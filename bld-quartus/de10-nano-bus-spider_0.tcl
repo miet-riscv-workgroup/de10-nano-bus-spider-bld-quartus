@@ -26,9 +26,9 @@ set_global_assignment -name VERILOG_FILE ../src/wb_intercon_1.0/rtl/verilog/wb_d
 set_global_assignment -name VERILOG_FILE ../src/wb_intercon_1.0/rtl/verilog/wb_upsizer.v
 set_global_assignment -name VERILOG_FILE ../src/wb_intercon_1.0/rtl/verilog/wb_mux.v
 set_global_assignment -name VERILOG_FILE ../src/wb_ram_1.0/rtl/verilog/wb_ram.v
+set_global_assignment -name VERILOG_FILE ../src/bus-spider-soc_0/rtl/verilog/picorv32-wb-soc.v
+set_global_assignment -name VERILOG_FILE ../src/bus-spider-soc_0/rtl/verilog/wb_intercon/wb_intercon.v
 set_global_assignment -name VERILOG_FILE ../src/de10-nano-bus-spider_0/rtl/verilog/de10-nano-bus-spider.v
-set_global_assignment -name VERILOG_FILE ../src/de10-nano-bus-spider_0/rtl/verilog/picorv32-wb-soc.v
-set_global_assignment -name VERILOG_FILE ../src/de10-nano-bus-spider_0/rtl/verilog/wb_intercon/wb_intercon.v
 set_global_assignment -name QIP_FILE qsys/soc_system/soc_system.qip
 set_global_assignment -name SDC_FILE ../src/de10-nano-bus-spider_0/data/de10-nano-bus-spider.sdc
 source ../src/de10-nano-bus-spider_0/data/de10-nano-bus-spider.qsf
@@ -37,4 +37,4 @@ set_global_assignment -name SEARCH_PATH ../src/riscv-nmon_0
 set_global_assignment -name SEARCH_PATH ../src/uart16550_1.5.4/rtl/verilog
 set_global_assignment -name SEARCH_PATH ../src/verilog_utils_0
 set_global_assignment -name SEARCH_PATH ../src/wb_common_0
-set_global_assignment -name SEARCH_PATH ../src/de10-nano-bus-spider_0/rtl/verilog/wb_intercon
+set_global_assignment -name SEARCH_PATH ../src/bus-spider-soc_0/rtl/verilog/wb_intercon
